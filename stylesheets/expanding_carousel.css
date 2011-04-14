@@ -1,0 +1,18 @@
+.expanding-carousel ul { margin:0; padding:0; }
+.expanding-carousel li { list-style:none; float:left; }
+.expanding-carousel li .active { width:350px; }
+.expanding-carousel li .super_active { width:362px; }
+.expanding-carousel .event { list-style:none; overflow:hidden; float:left; position:relative; margin:0 0 0 10px; width:183px; }
+.expanding-carousel .event:hover .box { border-color:#666; cursor:pointer; }
+.expanding-carousel .event.active:hover .box, .expanding-carousel .event.super_active:hover .box  { border-color:#999; cursor:text; }
+.expanding-carousel .event .box { background:#FFF; border:#999999 1px solid; height:110px; padding:10px; }
+.expanding-carousel .event .box img { height:110px; width:161px;  }
+.expanding-carousel .event .box .image-wrapper { }
+.expanding-carousel .event .description { position:absolute; top:10px; height:110px; overflow:hidden; margin-left:30px; }
+
+.expanding-carousel .event .description a { position:absolute; bottom:0px; left:; background:white; z-index:10; display:block; width:100%; font-style:normal; font-weight:bold; }
+.expanding-carousel .event .description a:after { content:">";}
+.expanding-carousel .event .description form + a { display:none;  }
+.stage { width:9999px; position:relative; left:0;}
+.stage-wrapper { overflow:hidden; width:750px; }
+.browserIE7 .stage-wrapper { position:relative;  }
